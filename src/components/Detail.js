@@ -26,6 +26,12 @@ const Detail = () => {
             <img src='/images/group-icon.png' alt='' />
           </GroupWatchButton>
         </Controls>
+        <Subtitle>
+          2018 - 7m - Family, Fantasy, Kids, Animation
+        </Subtitle>
+        <Description>
+          Una mamá china se siente triste cuando su hijo adulto se va de casa. Sin embargo, todo cambia cuando uno de sus dumplings cobra vida y se convierte en un niño dumpling alegre y risueño.
+        </Description>
     </Container>
   )
 }
@@ -115,4 +121,18 @@ const AddButton = styled.button`
 
 const GroupWatchButton = styled(AddButton)`
     background: rgb(0, 0, 0);
+`
+
+const Subtitle = styled.div`
+    color: rgb(249, 249, 249);
+    font-size: 15px;
+    min-height: 20px;
+    margin-top: 26px;
+`
+
+const Description = styled.div`
+    line-height: 1.4;
+    font-size: 20px;
+    margin-top: 16px;
+    color: rgb(249, 249, 249);
 `
